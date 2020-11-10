@@ -3,6 +3,15 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="Subi archivos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -85,7 +94,7 @@
       <workItem from="1603804467129" duration="4174000" />
       <workItem from="1604701460675" duration="997000" />
       <workItem from="1604703146693" duration="36709000" />
-      <workItem from="1604940882497" duration="26878000" />
+      <workItem from="1604940882497" duration="27209000" />
     </task>
     <task id="LOCAL-00001" summary="Subi archivos">
       <created>1604980472719</created>
@@ -94,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604980472719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Subi archivos">
+      <created>1604981047297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604981047297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,18 +212,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604908273448" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1604980281084">
+    <state x="550" y="137" key="RollbackChangesDialog" timestamp="1604981020124">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604980281084" />
+    <state x="550" y="137" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604981020124" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1604981305410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604981305410" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1604905225816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1604905225816" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604980575667">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604981185239">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604980575667" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604981185239" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1603522372338">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
