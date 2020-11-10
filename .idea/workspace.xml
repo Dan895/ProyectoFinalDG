@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="">
+    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="Subi archivos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Presentacion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -85,12 +85,35 @@
       <workItem from="1603804467129" duration="4174000" />
       <workItem from="1604701460675" duration="997000" />
       <workItem from="1604703146693" duration="36709000" />
-      <workItem from="1604940882497" duration="26191000" />
+      <workItem from="1604940882497" duration="26878000" />
     </task>
+    <task id="LOCAL-00001" summary="Subi archivos">
+      <created>1604980472719</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604980472719</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subi archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subi archivos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="72" key="#CLI_Interpreters" timestamp="1604703617063">
@@ -101,10 +124,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="475" y="60" key="#PHP/0.0.1536.834@0.0.1536.834" timestamp="1604703623062" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604979613889">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604980707976">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604979613889" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604980707976" />
     <state x="593" y="337" key="Github.CreateGistDialog" timestamp="1604978153753">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -181,10 +204,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1604905225816" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604979932149">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604980575667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604979932149" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604980575667" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1603522372338">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
