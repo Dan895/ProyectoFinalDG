@@ -37,7 +37,7 @@ function cleanDataCurso() {
             document.getElementById("descripcion").value = "";
         }
     } else {
-        location.href = "read.php";
+        location.href = "../Presentacion/index2.php";
     }
 }
 

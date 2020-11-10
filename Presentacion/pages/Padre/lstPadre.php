@@ -11,13 +11,13 @@ $result = mysqli_query($conn, "SELECT * FROM padre");
             <?php
             if (mysqli_num_rows($result) > 0) {
                 ?>
-                <table class="table table-bordered table-dark text-center">
+                <table id="tablaRegistro" class="table table-bordered table-dark text-center">
                     <tr>
-                        <td scope="col">ID</td>
-                        <td scope="col">Nombre</td>
-                        <td scope="col">Teléfono</td>
-                        <td scope="col">E-mail</td>
-                        <td scope="col">Opciones</td>
+                        <th scope="col">ID</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Teléfono</th>
+                        <th scope="col">E-mail</th>
+                        <th scope="col">Opciones</th>
                     </tr>
                     <?php
                     $i = 0;
@@ -28,10 +28,9 @@ $result = mysqli_query($conn, "SELECT * FROM padre");
                             <td><?php echo $row["nombre"]; ?></td>
                             <td><?php echo $row["telefono"]; ?></td>
                             <td><?php echo $row["email"]; ?></td>
-                            <td><a class="btn btn-success"
-                                   href="update.php?ID=<?php echo $row["codigo_Padre"]; ?>">Actualizar</a>
-                                <a class="btn btn-danger"
-                                   href="delete.php?ID=<?php echo $row["codigo_Padre"]; ?>">Eliminar</a></td>
+                            <td><!--Funcionó pero no aseguro nada porque tiene maña XD-->
+                                <a class="btn btn-success update" data-toggle="modal" data-target="#staticBackdrop" onclick="cargar()">ver data</a>
+                                <a class="btn btn-danger" href="delete.php?ID=<?php echo $row["codigo_Padre"]; ?>">Eliminar</a></td>
                         </tr>
                         <?php
                         $i++;
@@ -43,6 +42,51 @@ $result = mysqli_query($conn, "SELECT * FROM padre");
                 echo "No existen padres";
             }
             ?>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Actuliazar Datos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2>Modificación de Padre</h2>
+
+                <form>
+                    <div class="form-group" hidden>
+                        <p class="lead">Carnet:</p>
+                        <input type="text" class="lead form-control" name="id" id="id" onkeyup="searchId(this.value)">
+                        <span class="lead" id="idMessage"></span>
+                    </div>
+                    <div class="form-group">
+                        <p class="lead">Nombres: </p>
+                        <input type="text" class="lead form-control" name="completeName" id="completeName">
+                        <span class="lead" id="idMessage"></span>
+                    </div>
+                    <div class="form-group">
+                        <p class="lead">Teléfono:</p>
+                        <input type="text" class="lead form-control" name="telefono" id="telefono" maxlength="8">
+                    </div>
+                    <div class="form-group">
+                        <p class="lead">Email:</p>
+                        <input type="email" class="lead form-control" name="email" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="lead w-100">
+                        <input type="hidden" value="2" name="type" id="type">
+                        <input type="button" class="btn btn-primary" id="sendPadreData"  data-toggle="modal" data-target="#messageModal" onclick="sendDataPadre()" value="Guardar">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>

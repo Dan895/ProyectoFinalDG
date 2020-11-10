@@ -24,9 +24,9 @@ if (isset($data)) {
         mysqli_close($conn);
     } else if ($type == 2) {
 
-        $sql = "UPDATE student SET 
-                Last_Name = '$last_name', First_Name = '$first_name'
-                WHERE ID = $id";
+        $sql = "UPDATE estudiante SET 
+                nombre = '$name', fechaNac = '$fechaNac'
+                WHERE carnet_Estudiante = $newId";
 
         if (mysqli_query($conn, $sql)) {
             echo json_encode(array("success"=>true, "message"=>"Estudiante actualizado con éxito."));

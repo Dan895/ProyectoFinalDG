@@ -12,7 +12,6 @@ if (isset($data)) {
     $type = $data->type;
 
     if ($type == 1) {
-
         $sql = "INSERT INTO padre (nombre, telefono, email)
 	 VALUES ('$completeName', '$phone', '$email')";
 
@@ -22,10 +21,10 @@ if (isset($data)) {
             echo json_encode(array("success"=>false, "message"=>"Error: " . $sql . " " . mysqli_error($conn)));
         }
         mysqli_close($conn);
-    } /*else if ($type == 2) {
+    } else if ($type == 2) {
 
-        $sql = "UPDATE student SET 
-                Last_Name = '$last_name', First_Name = '$first_name'
+        $sql = "UPDATE padre SET 
+                nombre = '$completeName', telefono = '$phone', email = '$email'
                 WHERE ID = $id";
 
         if (mysqli_query($conn, $sql)) {
@@ -34,7 +33,7 @@ if (isset($data)) {
             echo json_encode(array("success"=>false, "message"=>"Error: " . $sql . " " . mysqli_error($conn)));
         }
         mysqli_close($conn);
-    } else if ($type == 3) {
+    } /*else if ($type == 3) {
 
         $sql = "DELETE FROM student 
                 WHERE ID = $id";

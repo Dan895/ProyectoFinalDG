@@ -22,6 +22,29 @@ if (isset($data)) {
             echo json_encode(array("success" => false, "message" => "Error: " . $sql . " " . mysqli_error($conn)));
         }
         mysqli_close($conn);
-    }
+    }else if ($type == 2) {
+
+        $sql = "UPDATE maestro SET 
+                nombre = '$name', fechaNac = '$fechaNac'
+                WHERE carnet_Maestro = $newId";
+
+        if (mysqli_query($conn, $sql)) {
+            echo json_encode(array("success"=>true, "message"=>"Maestro actualizado con éxito."));
+        } else {
+            echo json_encode(array("success"=>false, "message"=>"Error: " . $sql . " " . mysqli_error($conn)));
+        }
+        mysqli_close($conn);
+    } /*else if ($type == 3) {
+
+        $sql = "DELETE FROM student
+                WHERE ID = $id";
+
+        if (mysqli_query($conn, $sql)) {
+            echo json_encode(array("success"=>true, "message"=>"Maestro borrado con éxito."));
+        } else {
+            echo json_encode(array("success"=>false, "message"=>"Error: " . $sql . " " . mysqli_error($conn)));
+        }
+        mysqli_close($conn);
+    }*/
 }
 ?>

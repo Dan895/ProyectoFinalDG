@@ -62,6 +62,21 @@ function sendDataEstudiante() {
     xmlhttp.send(JSON.stringify(data));
 }
 
+function cargarEstudiante(){
+    $(".updateEst").on('click',function (){
+        $tr = $(this).closest('tr');
+        //console.log($tr);
+        var datos = $tr.children("td").map(function (){
+            return $(this).text();
+        });
+        console.log(datos);
+        $('#id').val(datos[0]);
+        $('#completeName').val(datos[1]);
+        $('#fechaNac').val(datos[2]);
+        $('#padre').val(datos[3]);
+    });
+}
+
 function cleanData() {
     mdlSuccess = document.getElementById("mdlSuccess").value;
     type = document.getElementById("type").value;
@@ -75,6 +90,6 @@ function cleanData() {
             document.getElementById("fechaNac").value = "";
         }
     } else {
-        location.href = "read.php";
+        location.href = "../Presentacion/index2.php";
     }
 }

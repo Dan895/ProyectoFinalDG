@@ -13,7 +13,7 @@
                         </div>
                         <div class="form-group">
                             <p class="lead">Descripción:</p>
-                            <input type="text" class="lead form-control" name="descripcion" id="descripcion">
+                            <input type="text" class="lead form-control" name="descripcion" id="descripcion" maxlength="100">
                         </div>
                         <div class="lead w-100">
                             <input type="hidden" value="1" name="type" id="type">

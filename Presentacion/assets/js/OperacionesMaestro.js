@@ -30,8 +30,8 @@ function searchId(newId) {
         xmlhttp.open("GET", "../Datos/newIDMaster.php?newId=" + newId, true);
         xmlhttp.send();
     }
-
 }
+
 //expresion regular para aceptar solo numeros
 function valNums(parametro){
     if (!/^([0-9])/.test(parametro)){
@@ -69,6 +69,20 @@ function sendDataMaster() {
     xmlhttp.send(JSON.stringify(data));
 }
 
+function cargarMaestro(){
+    $(".update").on('click',function (){
+        $tr = $(this).closest('tr');
+        //console.log($tr);
+        var datos = $tr.children("td").map(function (){
+            return $(this).text();
+        });
+        console.log(datos);
+        $('#id').val(datos[0]);
+        $('#name').val(datos[1]);
+        $('#fechaNac').val(datos[2]);
+    });
+}
+
 function cleanDataMaestro() {
     mdlSuccess = document.getElementById("mdlSuccess").value;
     type = document.getElementById("type").value;
@@ -81,6 +95,7 @@ function cleanDataMaestro() {
             document.getElementById("fechaNac").value = "";
         }
     } else {
-        location.href = "read.php";
+        location.href = "../Presentacion/index2.php";
     }
 }
+

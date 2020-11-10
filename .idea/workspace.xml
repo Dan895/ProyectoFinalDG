@@ -13,19 +13,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="Subi archivos">
-      <change afterPath="$PROJECT_DIR$/Negocio/AsignacionBussiness.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesAsignacion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentacion/pages/Asignacion/Asignacion.php" afterDir="false" />
+    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="cambios agregados a los componentes Asignacion, Curso, Estudiante, footer2, y al JS de Operaciones.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Negocio/EstudianteBussiness.php" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/EstudianteBussiness.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Negocio/cursoBussiness.php" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/cursoBussiness.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentacion/Componentes/footer2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/Componentes/footer2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentacion/Componentes/nav2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/Componentes/nav2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Negocio/MaestroBussiness.php" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/MaestroBussiness.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Negocio/PadreBussiness.php" beforeDir="false" afterPath="$PROJECT_DIR$/Negocio/PadreBussiness.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesAsignacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesAsignacion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesEstudiante.js" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesEstudiante.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesMaestro.js" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesMaestro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesPadre.js" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/assets/js/OperacionesPadre.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentacion/assets/js/operacionesCurso.js" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/assets/js/operacionesCurso.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentacion/pages/Curso/createCurso.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/pages/Curso/createCurso.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentacion/pages/Estudiante/createEstudiante.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/pages/Estudiante/createEstudiante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/pages/Estudiante/lstEstudiante.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/pages/Estudiante/lstEstudiante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/pages/Maestro/lstMaestro.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/pages/Maestro/lstMaestro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/pages/Padre/lstPadre.php" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/pages/Padre/lstPadre.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <workItem from="1603804467129" duration="4174000" />
       <workItem from="1604701460675" duration="997000" />
       <workItem from="1604703146693" duration="36709000" />
-      <workItem from="1604940882497" duration="37042000" />
+      <workItem from="1604940882497" duration="50423000" />
     </task>
     <task id="LOCAL-00001" summary="Subi archivos">
       <created>1604980472719</created>
@@ -128,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604981577879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cambios agregados a los componentes Asignacion, Curso, Estudiante, footer2, y al JS de Operaciones.">
+      <created>1604991617892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604991617892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Subi archivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subi archivos" />
+    <MESSAGE value="cambios agregados a los componentes Asignacion, Curso, Estudiante, footer2, y al JS de Operaciones." />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios agregados a los componentes Asignacion, Curso, Estudiante, footer2, y al JS de Operaciones." />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="72" key="#CLI_Interpreters" timestamp="1604703617063">
@@ -242,10 +251,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1604989879732" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604981714253">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604991628121">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604981714253" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604991628121" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1603522372338">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

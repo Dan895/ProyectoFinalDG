@@ -42,6 +42,7 @@ function cleanDataAsignacion() {
             document.getElementById("examen").value = "";
         }
     } else {
-        location.href = "read.php";
+        location.href = "../Presentacion/index2.php";
     }
 }
+

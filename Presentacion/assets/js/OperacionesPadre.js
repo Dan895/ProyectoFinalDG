@@ -1,10 +1,11 @@
 function sendDataPadre() {
-    //newId = document.getElementById("id").value;
+    //Id = document.getElementById("id").value;
     completeName = document.getElementById("completeName").value;
     telefono = document.getElementById("telefono").value;
     email = document.getElementById("email").value;
     type = document.getElementById("type").value;
 
+    //var data = {Id: Id, completeName: completeName, telefono: telefono, email: email, type: type};
     var data = {completeName: completeName, telefono: telefono, email: email, type: type};
     console.log(data);
     mdlMessage = document.getElementById("messageModal");
@@ -39,6 +40,64 @@ function cleanDataPadre() {
             document.getElementById("email").value = "";
         }
     } else {
-        location.href = "read.php";
+        location.href = "../Presentacion/index2.php";
     }
 }
+//Variable de recuperacion con javascript
+/*$(".update").click(function (e){
+    var line = $(e.currentTarget).parent("table").parent("tr").parent("tr");
+    var cell = $(this).get(0);
+    console.log(cell);
+    console.log(line);
+    var result = {
+        id: line.find('td')[0].val(),
+        completeName: line.find('td')[1].text(),
+        telefono: line.find('td')[2].val(),
+        email: line.find('td')[3].text()
+    }
+    console.log(result);
+});*/
+/*
+//Rellena el formulario de actualización
+$(".update").on('click',function (){
+    $tr = $(this).closest('tr');
+    console.log($tr);
+    var datos = $tr.children("td").map(function (){
+        return $(this).text();
+    });
+
+    $('#id').val(datos[0]);
+    $('#nombre').val(datos[1]);
+    $('#telefono').val(datos[2]);
+    $('#email').val(datos[3]);
+});*/
+
+
+function cargar(){
+    $(".update").on('click',function (){
+        $tr = $(this).closest('tr');
+        //console.log($tr);
+        var datos = $tr.children("td").map(function (){
+            return $(this).text();
+        });
+        console.log(datos);
+        $('#id').val(datos[0]);
+        $('#nombre').val(datos[1]);
+        $('#telefono').val(datos[2]);
+        $('#email').val(datos[3]);
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
