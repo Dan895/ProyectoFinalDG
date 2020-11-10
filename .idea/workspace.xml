@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="" />
+    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ioAexktX1kzgrFY8Q2LxbB05Do" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,7 +85,7 @@
       <workItem from="1603804467129" duration="4174000" />
       <workItem from="1604701460675" duration="997000" />
       <workItem from="1604703146693" duration="36709000" />
-      <workItem from="1604940882497" duration="25058000" />
+      <workItem from="1604940882497" duration="26191000" />
     </task>
     <servers />
   </component>
@@ -95,18 +101,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="475" y="60" key="#PHP/0.0.1536.834@0.0.1536.834" timestamp="1604703623062" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604978450167">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604979613889">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604978450167" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604979613889" />
     <state x="593" y="337" key="Github.CreateGistDialog" timestamp="1604978153753">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="593" y="337" key="Github.CreateGistDialog/0.0.1536.834@0.0.1536.834" timestamp="1604978153753" />
-    <state x="598" y="315" key="Github.ShareDialog" timestamp="1604978799273">
+    <state x="598" y="315" key="Github.ShareDialog" timestamp="1604979831737">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="598" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1604978799273" />
+    <state x="598" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1604979831737" />
+    <state x="563" y="122" key="Github.UntrackedFilesDialog" timestamp="1604979287581">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="563" y="122" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1604979287581" />
     <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1604940844377">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -163,14 +173,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604908273448" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1604979135521">
+    <state x="277" y="62" key="SettingsEditor" timestamp="1604980281084">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604979135521" />
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604980281084" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1604905225816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1604905225816" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604979932149">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604979932149" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1603522372338">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
