@@ -25,9 +25,10 @@
                             include_once '../../../Datos/Database.php';
                             $result = mysqli_query($conn,"SELECT codigo_Padre, nombre FROM padre");
                             ?>
-                            <select id="padre" class="form-group">
+                            <select id="padre" name="padre" class="form-group">
                                 <?php while ($row= mysqli_fetch_array($result)){ ?>
-                                <option class="lead" value="<?php $row["codigo_Curso"]?>"><?php echo $row["nombre"]?></option>
+                                <option class="lead" value="<?php echo $row["codigo_Padre"]?>"><?php echo $row["nombre"]?></option>
+
                                 <?php
                                 }
                                 ?>

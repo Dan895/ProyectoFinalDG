@@ -4,15 +4,15 @@ include_once '../Datos/Database.php';
 $data = json_decode(file_get_contents("php://input"));
 
 if (isset($data)) {
-    $newId = $data->newId;
-    $nameCurso = $data->nameCurso;
+    //$newId = $data->newId;
+    $name = $data->name;
     $descripcion = $data->descripcion;
     $type = $data->type;
 
     if ($type == 1) {
 
         $sql = "INSERT INTO curso (nombre, descripcion)
-	 VALUES ('$nameCurso', '$descripcion')";
+	 VALUES ('$name', '$descripcion')";
 
         if (mysqli_query($conn, $sql)) {
             echo json_encode(array("success" => true, "message" => "Curso creado con éxito."));

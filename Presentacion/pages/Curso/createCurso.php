@@ -8,7 +8,7 @@
                     <form>
                         <div class="form-group">
                             <p class="lead">Curso: </p>
-                            <input type="text" class="lead form-control" name="nameCurso" id="nameCurso">
+                            <input type="text" class="lead form-control" name="name" id="name">
                             <span class="lead" id="idMessage"></span>
                         </div>
                         <div class="form-group">
@@ -17,7 +17,7 @@
                         </div>
                         <div class="lead w-100">
                             <input type="hidden" value="1" name="type" id="type">
-                            <input type="button" class="btn btn-primary" id="sendStudentData"  data-toggle="modal" data-target="#messageModal" onclick="sendData()" value="Guardar">
+                            <input type="button" class="btn btn-primary" id="sendStudentData"  data-toggle="modal" data-target="#messageModal" onclick="sendDataCurso()" value="Guardar">
                         </div>
                     </form>
                 </div>

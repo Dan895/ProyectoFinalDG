@@ -11,6 +11,7 @@
     <script src="assets/js/operacionesCurso.js"></script>
     <script src="assets/js/OperacionesMaestro.js"></script>
     <script src="assets/js/OperacionesEstudiante.js"></script>
+    <script src="assets/js/OperacionesAsignacion.js"></script>
     <script>
         $(document).ready(function (){
             $(document).on('click', '.edit', function (){
@@ -51,6 +52,9 @@
                 });
                 $("#lstMaestro").click(function (){
                     $("#contenido").load("pages/Maestro/lstMaestro.php")
+                });
+                $("#Asignacion").click(function () {
+                    $("#contenido").load("pages/Asignacion/Asignacion.php")
                 });
             });
         </script>

@@ -5,19 +5,20 @@ $data = json_decode(file_get_contents("php://input"));
 
 if (isset($data)) {
 
-    $newId = $data->newId;
-    $name = $data->name;
-    $fechaNac = $data->fechaNac;
-    $padre = $data->padre;
+    $estudiante = $data->estudiante;
+    $curso = $data->curso;
+    $maestro = $data->maestro;
+    $zona = $data->zona;
+    $examen = $data->examen;
     $type = $data->type;
 
     if ($type == 1) {
 
-        $sql = "INSERT INTO estudiante (carnet_Estudiante, nombre, fechaNac, codigo_Padre) 
-        VALUES ('$newId', '$name', '$fechaNac', '$padre')";
+        $sql = "INSERT INTO asignacion (carnet_Estudiante, codigo_Curso, carnet_Maestro, zona, examen_Final) 
+        VALUES ('$estudiante', '$curso', '$maestro', '$zona', '$examen')";
 
         if (mysqli_query($conn, $sql)) {
-            echo json_encode(array("success"=>true, "message"=>"Estudiante creado con éxito."));
+            echo json_encode(array("success"=>true, "message"=>"Asignación creada."));
         } else {
             echo json_encode(array("success"=>false, "message"=>"Error: " . $sql . " " . mysqli_error($conn)));
         }

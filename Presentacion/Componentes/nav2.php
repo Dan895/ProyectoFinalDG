@@ -27,7 +27,6 @@
                         <ul class="serv-show">
                             <li><a id="MaestroLink" href="#"><i class="fas fa-plus mr-2"></i>Crear</a></li>
                             <li><a id="lstMaestro" href="#"><i class="fas fa-eye mr-2"></i>Mostrar</a></li>
-                            <li><a href="#"><i class="fas fa-pencil-alt mr-2"></i>Asignación Curso</a></li>
                         </ul>
                     </li>
                     <li>
@@ -35,7 +34,6 @@
                             <span class="fas fa-caret-down third"></span>
                         </a>
                         <ul class="not-show">
-                            <li><a id="NotasLink" href="#"><i class="fas fa-plus mr-2"></i>Crear</a></li>
                             <li><a id="lstNotas" href="#"><i class="fas fa-eye mr-2"></i>Mostrar</a></li>
                         </ul>
                     </li>
@@ -46,7 +44,6 @@
                         <ul class="cur-show">
                             <li><a id="CursoLink" href="#"><i class="fas fa-plus mr-2"></i>Crear</a></li>
                             <li><a id="lstCurso" href="#"><i class="fas fa-eye mr-2"></i>Mostrar</a></li>
-                            <li><a href="#" class="fas fa-pencil-alt mr-2"></i>Asignación Curso</a></li>
                         </ul>
                     </li>
                     <li>
@@ -58,6 +55,7 @@
                             <li><a id="lstPadres" href="#"><i class="fas fa-eye mr-2"></i>Mostrar</a></li>
                         </ul>
                     </li>
+                    <li><a id="Asignacion" href="#" class="fas fa-pencil-alt mr-2"></i> Asignación</a></li>
                 </ul>
             </nav>
         </div>

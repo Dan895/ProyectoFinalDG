@@ -37,11 +37,10 @@ function sendDataEstudiante() {
     newId = document.getElementById("id").value;
     name = document.getElementById("completeName").value;
     fechaNac = document.getElementById("fechaNac").value;
-    txtpadre = document.getElementById("padre").value;
-    padreValor = txtpadre.options[txtpadre.selectedIndex].value;
+    padre = document.getElementById("padre").value;
     type = document.getElementById("type").value;
 
-    var data = {newId: newId, name: name, fechaNac: fechaNac, padre: padreValor, type: type};
+    var data = {newId: newId, name: name, fechaNac: fechaNac, padre: padre, type: type};
     console.log(data);
     mdlMessage = document.getElementById("messageModal");
 
