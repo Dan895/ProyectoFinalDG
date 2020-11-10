@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ioAexktX1kzgrFY8Q2LxbB05Do" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Presentacion" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ProyectoFinal_DanielGalindo\Presentacion" />
+      <recent name="C:\xampp\htdocs\ProyectoFinal_DanielGalindo\Datos" />
+      <recent name="C:\xampp\htdocs\ProyectoFinal_DanielGalindo\Presentacion\Pages" />
+      <recent name="C:\xampp\htdocs\ProyectoFinal_DanielGalindo\Presentacion\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ProyectoFinal_DanielGalindo\Presentacion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.footer2.php">
+    <configuration name="footer2.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProyectoFinal_DanielGalindo/Presentacion/Componentes/footer2.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lstCurso.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProyectoFinal_DanielGalindo/Presentacion/pages/Curso/lstCurso.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Presentacion/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.footer2.php" />
+        <item itemvalue="JavaScript Debug.lstCurso.php" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7614f7a5-70a1-44e3-8da3-c1699384b8f5" name="Default Changelist" comment="" />
+      <created>1602563670839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602563670839</updated>
+      <workItem from="1602563672527" duration="183000" />
+      <workItem from="1603300372545" duration="621000" />
+      <workItem from="1603301054864" duration="1267000" />
+      <workItem from="1603469528247" duration="1310000" />
+      <workItem from="1603471876701" duration="28479000" />
+      <workItem from="1603804467129" duration="4174000" />
+      <workItem from="1604701460675" duration="997000" />
+      <workItem from="1604703146693" duration="36709000" />
+      <workItem from="1604940882497" duration="25058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="72" key="#CLI_Interpreters" timestamp="1604703617063">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="72" key="#CLI_Interpreters/0.0.1536.834@0.0.1536.834" timestamp="1604703617063" />
+    <state x="475" y="60" key="#PHP" timestamp="1604703623062">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="475" y="60" key="#PHP/0.0.1536.834@0.0.1536.834" timestamp="1604703623062" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604978450167">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604978450167" />
+    <state x="593" y="337" key="Github.CreateGistDialog" timestamp="1604978153753">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="593" y="337" key="Github.CreateGistDialog/0.0.1536.834@0.0.1536.834" timestamp="1604978153753" />
+    <state x="598" y="315" key="Github.ShareDialog" timestamp="1604978799273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="598" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1604978799273" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.2.bottom" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.2.center" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.2.left" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state width="1493" height="265" key="GridCell.Tab.2.right" timestamp="1604940844377">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1604940844377" />
+    <state x="477" y="140" key="NewPhpClassDialog" timestamp="1603501137467">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="140" key="NewPhpClassDialog/0.0.1536.834@0.0.1536.834" timestamp="1603501137467" />
+    <state x="604" y="340" key="NewPhpFileDialog" timestamp="1604908273448">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="604" y="340" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1604908273448" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1604979135521">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1604979135521" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604905225816">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1604905225816" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1603522372338">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1603522372338" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604978807618">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1604978807618" />
+  </component>
+</project>
